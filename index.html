@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Pure Javascript Word Counter</title>
+</head>
+<body>
+<!--Container with heading and a textarea-->
+    <div class="container">
+        <div>
+            <div class="heading">Count the words as you type</div>
+            <div>
+                <textarea class="textbox" name="" id="" cols="70" rows="15"></textarea>
+            </div>
+            <!--Inner HTML for the below div will be changed based on the input in textarea-->
+            <div class="result">Total words are <span class="numColor">0</span>, and Total characters are also <span class="numColor">0</span></div>
+            <!-- <p class="res"></p> -->
+        </div>
+    </div>
+<!-- scripts-->
+    <script type="module" defer="true" src="./Js/Counter.js"></script>
+    <script type="module" src="./Js/App.js"></script>
+</body>
+</html>
